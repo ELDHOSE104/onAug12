@@ -1,7 +1,42 @@
 p.small {
     line-height: 70%;
 }
-
 p.big {
     line-height: 200%;
+}
+p.moreSpacing {
+    word-spacing: 30px;
+}
+p.lessSpacing
+{
+    word-spacing: 1px;
+}
+h3.lessLetterSpacing {
+    letter-spacing: -3px;
+}
+h3.moreLetterSpacing {
+    letter-spacing:normal;
+}
+p.wordWrap
+{
+    word-wrap:break-word;
+    width: 11em;
+    border: 1px solid #000000;
+}
+div.ellipsis
+{
+    white-space: nowrap;
+    width: 15em;
+    overflow: hidden;
+    text-overflow: clip;
+    border: 1px solid #000000;
+}
+
+div.divEllipsis
+{
+    white-space: nowrap;
+    width: 12em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid #000000;
 }
